@@ -25,3 +25,6 @@ def test_min():
     assert ef.math.min(2, 3) == 2
     assert ef.math.min(3, 3) == 3
 
+def test_max():
+    assert ef.math.max(3, 4) == 4
+    assert ef.math.max(4, 4) == 4
