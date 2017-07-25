@@ -17,3 +17,7 @@ def test_mod():
     assert ef.math.mod(4, 3) == 1
     assert ef.math.mod(6, 3) == 0
 
+def test_power():
+    assert ef.math.power(4, 2) == 16
+    assert ef.power(2, 3) == 8
+
