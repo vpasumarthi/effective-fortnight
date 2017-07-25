@@ -21,3 +21,7 @@ def test_power():
     assert ef.math.power(4, 2) == 16
     assert ef.power(2, 3) == 8
 
+def test_min():
+    assert ef.math.min(2, 3) == 2
+    assert ef.math.min(3, 3) == 3
+
