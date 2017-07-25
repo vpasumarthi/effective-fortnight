@@ -12,3 +12,8 @@ def test_add():
 def test_mult():
     assert ef.math.mult(2, 5) == 10
     assert ef.mult(4, 3) == 12
+
+def test_mod():
+    assert ef.math.mod(4, 3) == 1
+    assert ef.math.mod(6, 3) == 0
+
