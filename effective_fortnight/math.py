@@ -33,7 +33,7 @@ def min(arg1, arg2):
     if arg1 < arg2:
         minValue = arg1
     else:
-	minValue = arg2 
+        minValue = arg2 
     return minValue
 
 def max(arg1, arg2):
@@ -43,5 +43,5 @@ def max(arg1, arg2):
     if arg1 > arg2:
         maxValue = arg1
     else:
-	maxValue = arg2 
+        maxValue = arg2 
     return maxValue
